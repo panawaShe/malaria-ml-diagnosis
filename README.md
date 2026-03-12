@@ -34,9 +34,6 @@ malaria-ml-diagnosis
 │   ├── 04_model_evaluation.R
 │   └── 05_ensemble_models.R
 │
-├── data
-│   └── sample_malaria_dataset.csv
-│
 ├── environment
 │   └── requirements.R             # Optional: library install script for reproducibility
 │
@@ -121,8 +118,6 @@ Each script corresponds to a specific stage of the analysis pipeline.
 The dataset used in this study contains anonymized retrospective clinical data obtained from routine hospital records.
 
 Due to ethical and privacy considerations, the full dataset cannot be publicly shared.
-
-A **sample dataset** is provided in the `data/` folder for demonstration purposes.
 
 Researchers interested in accessing the full dataset for academic purposes may contact the corresponding author.
 
