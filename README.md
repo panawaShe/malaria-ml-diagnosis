@@ -37,8 +37,6 @@ malaria-ml-diagnosis
 ├── environment
 │   └── requirements.R             # Optional: library install script for reproducibility
 │
-├── results                        # Output folder for models, plots, metrics
-│
 └── README.md                       # Detailed project description and instructions
 ```
 
