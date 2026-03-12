@@ -148,7 +148,7 @@ environment/requirements.R
 
 If you use this repository or the code provided, please cite the associated manuscript:
 
-Nyengera P., Takawira H.T., Mlambo F.
+Nyengera P., Takawira H.T., Mlambo F.F.
 *Machine Learning Approaches for Malaria Diagnosis Using Clinical and Demographic Data.*
 
 Submitted to **Infectious Disease Reports**.
