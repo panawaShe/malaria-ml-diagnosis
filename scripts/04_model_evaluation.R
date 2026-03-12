@@ -1,6 +1,5 @@
 source("scripts/00_libraries.R")
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ********************** MODEL EVALUATION *********************************
 # Example evaluation predicted probabilities 
 lr_pred_prob <- predict(lr_model, newdata = eval_data, type = "prob")
@@ -107,7 +106,6 @@ ggplot(data_melted, aes(x = Model, y = value, fill = variable)) +
         axis.line.x = element_line(color = "black"),  # Restore x-axis line
         legend.title = element_blank())  # Remove legend title
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ********************** MODEL TESTING *********************************
 
 # Logistic Regression Predictions
@@ -138,7 +136,6 @@ nb_test_preds <- ifelse(nb_test_probs > 0.5, 1, 0)
 xgb_test_probs <- predict(xgb_model, newdata = test_data, type = "prob")[, 2]
 xgb_test_preds <- ifelse(xgb_test_probs > 0.5, 1, 0)
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ********************** MODEL Performance ON TESTING DATASET *********************************
 
 # Replace 'actual_diagnosis_column_name' with the actual name of your target variable in the test_data
