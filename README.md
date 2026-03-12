@@ -27,6 +27,8 @@ The repository is organised as follows:
 malaria-ml-diagnosis
 │
 ├── scripts
+│   ├── 00_setup.R                 # Reproducibility settings, seed, options
+│   ├── 00_libraries.R             # Load all libraries
 │   ├── 01_data_preprocessing.R
 │   ├── 02_feature_selection.R
 │   ├── 03_model_training.R
@@ -37,11 +39,11 @@ malaria-ml-diagnosis
 │   └── sample_malaria_dataset.csv
 │
 ├── environment
-│   └── requirements.R
+│   └── requirements.R             # Optional: library install script for reproducibility
 │
-├── results
+├── results                        # Output folder for models, plots, metrics
 │
-└── README.md
+└── README.md                       # Detailed project description and instructions
 ```
 
 # Analytical Workflow
