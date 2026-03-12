@@ -1,7 +1,3 @@
-############################################################
-# 01_data_preprocessing.R
-############################################################
-
 source("scripts/00_libraries.R")
 
 #  EXPLORATORY DATA ANALYSIS (EDA)
