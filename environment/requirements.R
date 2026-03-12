@@ -1,7 +1,6 @@
-############################################################
+
 # requirements.R
 # Install required R packages for the malaria ML project
-############################################################
 
 packages <- c(
   "readxl",
