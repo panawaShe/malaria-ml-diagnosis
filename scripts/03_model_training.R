@@ -1,6 +1,5 @@
 source("scripts/00_libraries.R")
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ***************************HANDLING CLASS IMBALANCE **********************************
 
 # Check the class distribution of the target variable (Diagnosis)
