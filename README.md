@@ -102,6 +102,7 @@ source("environment/requirements.R")
 2. Run the scripts sequentially:
 
 ```
+scripts/00_libraries.R 
 scripts/01_data_preprocessing.R
 scripts/02_feature_selection.R
 scripts/03_model_training.R
