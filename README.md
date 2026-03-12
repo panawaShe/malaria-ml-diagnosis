@@ -3,7 +3,7 @@
 
 This repository contains the R scripts used in the study:
 
-**"Machine Learning Approaches for Malaria Diagnosis Using Clinical and Demographic Data."**
+**"Ensemble Machine Learning for Malaria Diagnosis in Resource-Limited Settings."**
 
 The repository provides the full analytical workflow used to develop and evaluate machine learning models for malaria diagnosis using retrospective clinical data.
 
