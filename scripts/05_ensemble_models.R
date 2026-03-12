@@ -1,6 +1,5 @@
 source("scripts/00_libraries.R")
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ************************ ENSEMBLE MODEL BUILDING **********************
 
 #1.  BAGGING
@@ -58,7 +57,7 @@ adaboost_model <- ada(Diagnosis ~ ., data = train_data, iter = 100)
 # Predictions from AdaBoost
 ada_preds <- predict(adaboost_model, newdata = eval_data)
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
+
 # ************************ ENSEMBLE MODEL EVALUATION **********************
 
 # Ensure the target variable in eval_data is a factor
@@ -145,7 +144,7 @@ ggplot(data_melted, aes(x = Model, y = value, fill = variable)) +
         axis.line = element_line(color = "black"),  # Restore both x and y-axis lines
         legend.title = element_blank())  # Remove legend title
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
+
 # ************************ ENSEMBLE MODEL performance ON TESTING DATASET **********************
 
 # Soft Voting Predictions
