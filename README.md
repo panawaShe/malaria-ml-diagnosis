@@ -27,7 +27,6 @@ The repository is organised as follows:
 malaria-ml-diagnosis
 │
 ├── scripts
-│   ├── 00_setup.R                 # Reproducibility settings, seed, options
 │   ├── 00_libraries.R             # Load all libraries
 │   ├── 01_data_preprocessing.R
 │   ├── 02_feature_selection.R
