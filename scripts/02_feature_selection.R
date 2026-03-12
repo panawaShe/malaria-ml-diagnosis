@@ -1,6 +1,5 @@
 source("scripts/00_libraries.R")
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ****************** FEATURE SELECTION **************************
 
 # Convert categorical variables to numeric
@@ -32,7 +31,6 @@ png("VIF_Table.png", width = 900, height = 500, res = 150)  # Adjust size and re
 grid.draw(table_plot)
 dev.off()
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ***************** DATA ENCODING ***************************************
 
 # Convert categorical variables to factors (important for model building)
@@ -66,7 +64,7 @@ malaria_dataset$Residence.Gweru <- ifelse(malaria_dataset$Residence == "Gweru", 
 malaria_dataset$Health.Facility.Gutu <- ifelse(malaria_dataset$Health.Facility == "Gutu Mission Hospital", 1, 0)
 malaria_dataset$Health.Facility.Gweru <- ifelse(malaria_dataset$Health.Facility == "Gweru Provincial Hospital", 1, 0)
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
+
 # ************************ Feature Selection 
 # Recursive Feature Elimination (RFE) - for Feature Selection
 
