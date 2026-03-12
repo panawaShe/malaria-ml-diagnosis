@@ -55,7 +55,6 @@ ggplot(balanced_data, aes(x = as.factor(Diagnosis), fill = as.factor(Diagnosis))
   theme(panel.grid = element_blank(),  # Remove grid lines
         axis.line = element_line(color = "black"))  # Add axis lines
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
 # ******************************DATA SPLITTING *********************
 
 # Set seed for reproducibility
@@ -86,7 +85,7 @@ cat("\nTraining set size:", nrow(train_data))
 cat("\nEvaluation set size:", nrow(eval_data))
 cat("\nTesting set size:", nrow(test_data))
 
-# 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌 📌
+
 # ********************** Model Development & Hyperparameter Tuning ********
 
 train_data$Diagnosis <- as.factor(train_data$Diagnosis)
