@@ -60,7 +60,7 @@ The analysis follows the steps below:
    * Synthetic Minority Over-sampling Technique (SMOTE)
 
 4. Model development
-   Multiple machine learning models were trained and tuned, including:
+  ( Multiple machine learning models were trained and tuned, including):
 
    * Logistic Regression (LASSO)
    * Random Forest
